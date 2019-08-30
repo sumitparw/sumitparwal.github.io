@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  
+  <title>Machine Learning</title>
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+    <header>
+      <div class="menu">
+        
+          <div class="container">
+            <div class="navwrapper">
+              <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                  <div class="navArea">
+                     
+                      <ul class="nav navbar-nav">
+                        <li class="menuItem active responsive"><a href="index.html">Back</a></li>
+                      </ul>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  <div class="container">
+  <ul class="list-group">
+    <li class="list-group-item text-center"><b>Machine Learning For Data Informatics(INF-552)</b></li>
+    <ul class="list-group">
+       <li class="list-group-item"><b>Generative Model For Text(LSTM) on Bertrand Russell's work</b>
+        <ul class="list-group">
+          <ul class="list-group">
+            <li class="list-group-item"><p>Built a generative model to mimic the writing style of prominent British mathematician, philosopher, prolific writer, and political activist, Bertrand Russell.Trained a LSTM that mimics Russel's style and thoughts.</li>
+            <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Generative_Model_Text_Bertrand_Russel/tree/master/books" target="_blank">Dataset</a></li>
+            <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Generative_Model_Text_Bertrand_Russel" target="_blank">Code</a></li>
+          </ul>
+        </ul>
+       </li>  
+    </ul>
+    <ul class="list-group">
+       <li class="list-group-item"><b>(Deep) CNNs for Image Colorization</b>
+        <ul class="list-group">
+          <ul class="list-group">
+            <li class="list-group-item"><p>Used a convolutional neural network for image colorization which turns a grayscale image to a colored image. By converting an image to grayscale, we loose color information, so converting a grayscale image back to a colored version is not an easy job. I used the CIFAR-10 dataset.</li>
+            <li class="list-group-item"><b>Tools Used</b><p>scikit-learn,pandas,keras,tenseorflow</p></li>
+            <li class="list-group-item"><a style="color:black;" href="http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz" target="_blank">Dataset</a></li>
+            <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Deep-CNNs-for-image-colorization" target="_blank">Code</a></li>
+          </ul>
+        </ul>
+       </li>  
+    </ul>
+    <ul class="list-group">
+       <li class="list-group-item"><b>Multiclass and multi label classification using Support Vector Machines</b>
+        <ul class="list-group">
+          <ul class="list-group">
+            <li class="list-group-item"><p>Multi-class and Multi-Label Classification Using Support Vector Machines on Anuran Calls dataset and K-Means Clustering on a Multi-Class and Multi-Label Data Set<br>
+<b>Approaches:</b>Monte Carlo simulation, using linear, Gaussian kernels kernel and L1-penalized SVMs, SMOTE, CH or Gap Statistics or screen plots</li>
+            <li class="list-group-item"><a style="color:black;" href="https://archive.ics.
+uci.edu/ml/datasets/Anuran+Calls+%28MFCCs%29" target="_blank">Dataset</a></li>
+
+            <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Multiclass-and-multi-label-classification-using-Support-Vector-Machines" target="_blank">Code</a></li>
+        </ul>
+        </ul>
+       </li>  
+    </ul>
+    <ul class="list-group">
+       <li class="list-group-item"><b>Supervised, Semi-supervised and unsupervised learning on Breast Cancer Dataset</b>
+        <ul class="list-group">
+          <ul class="list-group">
+            <li class="list-group-item"><p>Supervised, Semi-supervised and unsupervised learning on Breast Cancer Dataset<br>
+<b>Approaches:</b>Monte Carlo simulation, supervised, Clustering,Spectral Clustering, Self Training and L1-penalized SVMs, SMOTE, CH or Gap Statistics or screen plots</li>
+            <li class="list-group-item"><a style="color:black;" href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29" target="_blank">Dataset</a></li>
+            <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Supervised-Semi-supervised-and-unsupervised-learning-on-Breast-Cancer-Dataset" target="_blank">Code</a></li>
+          </ul>
+        </ul>
+       </li>  
+    </ul>
+    <ul class="list-group">
+       <li class="list-group-item"><b>Active Learning Using Support Vector Machines</b>
+        <ul class="list-group">
+          <ul class="list-group">
+            <li class="list-group-item"><p>Binary classification problem on banknote authentication dataset<br><p> 
+Approaches: </p>Active, passive learning, Monte Carlo simulation, using linear, Gaussian kernels kernel and L1-penalized SVMs, SMOTE, CH or Gap Statistics or scree plots</li>
+            <li class="list-group-item"><a style="color:black;" href="https://archive.ics.
+uci.edu/ml/datasets/banknote+authentication" target="_blank">Dataset</a></li>
+            <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Active-Learning-Using-Support-Vector-Machines" target="_blank">Code</a></li>
+          </ul>
+        </ul>
+       </li>  
+    </ul>
+    <ul class="list-group">
+       <li class="list-group-item"><b>The LASSO and Boosting for Regression, Tree-Based Methods</b>
+        <ul class="list-group">
+          <ul class="list-group">
+            <li class="list-group-item"><p>Communities and Crime dataset, APS Failure dataset<br><b>
+Approaches:</b> Data imputation techniques, linear,ridge regression, PCR models , boosting tree, multivariate regression tree, L1 penalized gradient boosting tree, XGBoost, random forest, Out of Bag error estimate, ROC, AUC, Weka, SMOTE</li>
+            <li class="list-group-item"><a style="color:black;" href="https://archive.ics.uci.
+edu/ml/datasets/Communities+and+Crime" target="_blank">Dataset(Crime)</a></li>
+            <li class="list-group-item"><a style="color:black;" href="https://archive.ics.uci.edu/ml/datasets/
+APS+Failure+at+Scania+Trucks" target="_blank">Dataset(APS Failure)</a></li>
+            <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/The-LASSO-and-Boosting-for-Regression-Tree-Based-Methods" target="_blank">Code</a></li>
+          </ul>
+        </ul>
+       </li>  
+    </ul>
+          <ul class="list-group">
+             <li class="list-group-item"><b>Time Series Classification</b>
+              <ul class="list-group">
+                <ul class="list-group">
+                  <li class="list-group-item"><p>An interesting task in machine learning is classification of time series. In this problem, I tried to classify the activities of humans based on time series obtained by a Wireless Sensor Network.<br><b>
+Approaches:</b> Time-domain features, bootsrap confidence interval, binary classification Using Logistic Regression, p-values, backward selection using sklearn.feature selection, stratified cross validation, Python's Recursive Feature Elimination, ROC, AUC, L1-penalized logistic regression, L1 regularization, L1- penalized multinomial regression, Naive Bayes' classifier using both Gaussian and Multinomial priors</li>
+                  <li class="list-group-item"><a style="color:black;" href="https://archive.ics.uci.edu/ml/datasets/Activity+Recognition+system+based+on+Multisensor+data+fusion+(AReM)" target="_blank">Dataset</a></li>
+                  <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Time-Series-Classification" target="_blank">Code</a></li>
+                          </ul>
+              </ul>
+             </li>  
+          </ul>
+          <ul class="list-group">
+             <li class="list-group-item"><b>Cycle power plant dataset</b>
+              <ul class="list-group">
+                <ul class="list-group">
+                  <li class="list-group-item"><p>cycle power plant dataset(arem)<br><b>Approaches:</b> Scatterplots, box plots, Classification using KNN, Learning curve, Euclidean, Minkowski, Manhattan, Chebyshev, Mahalanobis distances, simple linear regression model, association of interactions of predictors with the response using p-values, KNN Regression.</li>
+                  <li class="list-group-item"><a style="color:black;" href="https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant" target="_blank">Dataset</a></li>
+                  <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Cycle-power-plant-dataset" target="_blank">Code</a></li>
+                          </ul>
+              </ul>
+             </li>  
+          </ul>
+          <ul class="list-group">
+              <li class="list-group-item"><b>Classification using verterbral column daatset</b>
+                <ul class="list-group">
+                  <ul class="list-group">
+                    <li class="list-group-item"><p>cycle power plant dataset(arem)<br><b>Approaches:</b> Scatterplots, box plots, Classification using KNN, Learning curve, Euclidean, Minkowski, Manhattan, Chebyshev, Mahalanobis distances, simple linear regression model, association of interactions of predictors with the response using p-values, KNN Regression.</li>
+                    <li class="list-group-item"><a style="color:black;" href="https://archive.ics.uci.
+edu/ml/datasets/Vertebral+Column" target="_blank">Dataset</a></li>
+                    <li class="list-group-item"><a style="color:black;" href="https://github.com/sumitparw/Classification-on-verterbral-column-dataset" target="_blank">Code</a></li>
+                  </ul>
+                </ul>
+              </li>   
+            </ul>
+        </li>
+  </ul>
+</div>
+<section class="footer" id="footer">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+      <div class="container">
+
+        <ul>
+          <li><a href="https://github.com/sumitparw" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/sumit-parwal-4bb331121" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <p>© 2019 Sumit Parwal. All rights reserved.</p>
+       
+      </div>
+    </section>                 
+</html>
